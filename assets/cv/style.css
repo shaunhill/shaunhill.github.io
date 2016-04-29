@@ -1,0 +1,104 @@
+/*
+ * Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+ *
+ * CSS for making a resume with pandoc. Inspired by moderncv.
+ *
+ * This CSS document is delivered to you under the CC BY-SA 3.0 License.
+ * https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+ */
+
+/* Whole document */
+/*body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 800px;
+    margin: auto;
+    background: #FFFFFF;
+    padding: 10px 10px 10px 10px;
+}*/
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 28px;
+    font-weight: 300;
+    font-size: 14px;
+    color: #282828;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    -webkit-overflow-scrolling: touch;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+
+/* Title of the resume */
+h1 {
+    font-size: 55px;
+    color: #68c3a3;
+    text-align:center;
+    margin-bottom:15px;
+}
+h1:hover {
+    background-color: #333333;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px #333;
+}
+
+/* Titles of categories */
+h2 {
+    color: #68c3a3;
+}
+/* There is a bar just before each category */
+h2:before {
+    content: "";
+    display: inline-block;
+    margin-right:1%;
+    width: 16%;
+    height: 10px;
+    background-color:  #68c3a3;
+}
+h2:hover {
+    background-color: #68c3a3;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px #333;
+}
+em{
+  font-weight: bold;
+}
+/* Definitions */
+dt {
+    float: left;
+    clear: left;
+    width: 17%;
+    font-weight: bold;
+}
+dd {
+    margin-left: 17%;
+}
+p {
+
+    margin-top:0;
+    margin-bottom:7px;
+}
+
+/* Blockquotes */
+blockquote {
+    text-align: center
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color:  #68c3a3;;
+}
+a:hover, a:active {
+    background-color:  #68c3a3;;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #333;
+}
+
+/* Horizontal separators */
+hr {
+    color: #333333;
+}
