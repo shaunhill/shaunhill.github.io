@@ -308,7 +308,7 @@ ul.list-check li::before {
 
 @media (max-width: 640px) {
     .tt-fullHeight {
-        height: 560px !important;
+/*        height: 560px !important;*/
     }
 }
 .d3_01 {

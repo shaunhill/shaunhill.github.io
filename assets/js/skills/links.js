@@ -1,10 +1,12 @@
 
 
 function getLinks() {
+         links = []
+        links_data = []
   var index = main_data.length;
   main_data.forEach(function(d, i) {
     links_data.push({
-      "x": axis_top(d.years) + 250,
+      "x": axis_top(d.years)+(max_width*0.025),
       "y": 380,
       index: index,
       fixed: true
@@ -18,7 +20,7 @@ function getLinks() {
 
   main_data.forEach(function(d, i) {
     links_data.push({
-      "x": axis_bottom(d.proficiency) + 250,
+      "x": axis_bottom(d.proficiency)+(max_width*0.025),
       "y": max_height + 100,
       index: index,
       fixed: true

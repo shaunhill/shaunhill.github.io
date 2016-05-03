@@ -3,7 +3,7 @@ var k = 1, // initial number of candidates to consider per circle
     n = 700, // remaining number of circles to add
     newCircle = bestCircleGenerator(maxRadius, padding);
 
-var svg = d3.select("section").append("svg")
+var home_svg = d3.select("section").append("svg")
     .attr("width", "100%")
     .attr("height", "100%")
     .attr("id", "home-chart")
@@ -12,7 +12,7 @@ var svg = d3.select("section").append("svg")
 d3.timer(function () {
     for (var i = 0; i < m && --n >= 0; ++i) {
         var circle = newCircle(k);
-        svg.append("circle")
+        home_svg.append("circle")
             .attr("cx", circle[0])
             .attr("cy", circle[1])
             .attr("r", 0)

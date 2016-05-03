@@ -13,20 +13,3 @@ var rmax = 150,
     width = max_width - margin.left - margin.right,
     height = max_height - margin.top - margin.bottom;
 
-debugger;
-var aspect = width / height,
-    chart = d3.select('#home-chart');
-
-d3.select(window)
-    .on("resize", function () {
-        var targetWidth = chart.node().getBoundingClientRect().width;
-        chart.attr("width", targetWidth);
-        chart.attr("height", targetWidth / aspect);
-    });
-chart = d3.select('#skill-chart');
-d3.select(window)
-    .on("resize", function () {
-        var targetWidth = chart.node().getBoundingClientRect().width;
-        chart.attr("width", targetWidth);
-        chart.attr("height", targetWidth / aspect);
-    });
