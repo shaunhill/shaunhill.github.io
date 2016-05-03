@@ -140,9 +140,6 @@ function initChart() {
     console.log(err)
   }
 
-
-
-
   main = svg.append('g')
     .attr("class", 'main')
     .attr("transform", "translate(0,-200)");

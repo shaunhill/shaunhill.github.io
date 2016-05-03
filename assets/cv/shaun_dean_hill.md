@@ -25,7 +25,7 @@ Corporate Experience
 
   2007-2010 : *Network Administrator, [Eqstra Holdings](https://www.eqstra.co.za) (Meadowdale, Johannesburg, South Africa).*
 
-  >Worked a long side other IT infrastructure and systems staff to deliver a high level of support and customer services, in accordance with strict SLA agreements. Ultimately ensuring that clients experience minimal downtime, and optimal user experience.
+  >Worked a long side other IT infrastructure and systems staff to deliver a high level of support and customer services in accordance with strict SLA agreements. Ultimately ensuring that clients experience minimal downtime, and optimal user experience.
 
 ----
 
