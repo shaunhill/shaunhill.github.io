@@ -6,11 +6,11 @@ function getScales() {
 
   axis_top = d3.scale.linear()
     .domain([0, 8])
-    .range([max_width * 0.028, max_width * 0.925])
+    .range([max_width * 0.0245, max_width * 0.925])
 
     axis_bottom = d3.scale.linear()
       .domain([0, 100])
-      .range([max_width * 0.028, max_width * 0.925])
+      .range([max_width * 0.0245, max_width * 0.925])
 
   scale_main = d3.scale.linear().domain([0, max_width]).range([axis_top(0), axis_top(100)])
 
@@ -23,7 +23,7 @@ function getScales() {
       .orient("bottom")
       .ticks(10, "s"));
 
-  axis_t.append('text').text('Years Experince').attr('x', '48.5%').attr('y', '-1%')
+  axis_t.append('text').text('Years Experince').attr('x', '47.5%').attr('y', '-1%')
 
   var axis_b = svg.append("g")
     .attr("transform", "translate(" + axis_bottom(0) + "," + (max_height - 100) + ")")
@@ -33,7 +33,7 @@ function getScales() {
       .orient("top")
       .ticks(20, "s"));
 
-  axis_b.append('text').text('Proficiency').attr('x', '48.5%').attr('y', '2%')
+  axis_b.append('text').text('Proficiency').attr('x', '47.5%').attr('y', '2%')
 
 
 };

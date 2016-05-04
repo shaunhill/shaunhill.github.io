@@ -1,6 +1,7 @@
 - set max_width ration to global varible
-- vis click icons.
 - skill load animations
 - spelling and sentence structure
 - Change legend points to fixed.
 - Change proficiency range to 25 - 100
+- Title cut off in pdf cv
+- Possibly embed style in cv html

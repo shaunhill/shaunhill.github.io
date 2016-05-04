@@ -308,7 +308,7 @@ ul.list-check li::before {
 
 @media (max-width: 640px) {
     .tt-fullHeight {
-/*        height: 560px !important;*/
+        /*        height: 560px !important;*/
     }
 }
 .d3_01 {
@@ -893,6 +893,8 @@ Resume Timeline
 }
 
 /*scale*/
+
+
 /*
 .axis line {
     padding-top: 100px
@@ -902,31 +904,25 @@ Resume Timeline
 
 }
 */
-svg{
+
+svg {
     margin-bottom: -100px
 }
-
 .axis path {
     fill: white;
-/*    stroke-width:1px;*/
+    /*    stroke-width:1px;*/
 }
-
 .axis text {
     font: 12px sans-serif;
 }
-
-.axis h3{
+.axis h3 {
     text-align: center;
 }
 .axis-bottom h3 {
     margin-bottom: 10px;
-
-
 }
+.axis-top h3 {}
 
-.axis-top h3 {
-
-}
 /* === Legend === */
 
 text {
@@ -934,7 +930,8 @@ text {
     text-anchor: middle;
 }
 .skill-title {
-    margin-bottom: -80px
+    margin-bottom: -80px;
+    /*    margin-top: 100px !important ;*/
 }
 .skill-title text {
     font-size: 50px;
@@ -1409,7 +1406,7 @@ Icon for all respective meta
 /* === Hire Section === */
 
 .hire-section {
-/*    background: url(../../assets/images/hire-bg.jpg) no-repeat top center rgba(46, 45, 45, 0.94);*/
+    /*    background: url(../../assets/images/hire-bg.jpg) no-repeat top center rgba(46, 45, 45, 0.94);*/
     background-attachment: fixed;
     background-size: cover;
     color: #fff;
@@ -1513,15 +1510,38 @@ Icon for all respective meta
 .mouse-icon {
     position: relative;
     left: 50%;
-    top: 90%;
+    top: 100%;
     border: 2px solid #fff;
     border-radius: 16px;
     height: 50px;
     width: 30px;
-    margin-left: -17px;
     display: block;
     z-index: 10;
     overflow: hidden;
+}
+.mouse-icon-left {
+    position: relative;
+    left: 49%;
+    border: 2px solid #fff;
+    border-radius: 16px;
+    height: 50px;
+    width: 30px;
+    display: block;
+    z-index: 10;
+    overflow: hidden;
+
+}
+.mouse-icon-right {
+    position: relative;
+    left: 49%;
+    border: 2px solid #fff;
+    border-radius: 16px;
+    height: 50px;
+    width: 30px;
+    display: block;
+    z-index: 10;
+    overflow: hidden;
+    margin-bottom:  20px
 }
 .mouse-icon .wheel {
     -webkit-animation-name: drop;
@@ -1547,19 +1567,45 @@ Icon for all respective meta
     margin-left: auto;
     margin-right: auto;
 }
-.mouse-icon .left {
+.mouse-icon-left .left {
     background: #fff;
     width: 12px;
     height: 17px;
-    float: left
+    float: left;
 }
-.mouse-icon .right {
+.mouse-icon-left .right {
     background: #fff;
     width: 12px;
     height: 17px;
     float: right
 }
-.mouse-icon .left {
+.mouse-icon-right .left {
+    background: #fff;
+    width: 12px;
+    height: 17px;
+    float: left;
+}
+.mouse-icon-right .right {
+    background: #fff;
+    width: 12px;
+    height: 17px;
+    float: right
+}
+.mouse-icon-left .left {
+    -webkit-animation-name: dbclick;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 0s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-play-state: running;
+    animation-name: dbclick;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+.mouse-icon-right .right {
     -webkit-animation-name: click;
     -webkit-animation-duration: 1s;
     -webkit-animation-timing-function: linear;
@@ -1601,7 +1647,7 @@ Icon for all respective meta
         opacity: 0;
     }
 }
-@keyframes click {
+@keyframes dbclick {
     0% {
         opacity: 0;
     }
@@ -1613,6 +1659,26 @@ Icon for all respective meta
     }
     40% {
         opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@keyframes click {
+    0% {
+        opacity: 1;
+    }
+    10% {
+        opacity: 1;
+    }
+    30% {
+        opacity: 1;
+    }
+    40% {
+        opacity: 0;
     }
     50% {
         opacity: 0;

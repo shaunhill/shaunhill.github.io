@@ -61,7 +61,7 @@ Core Skills
   >Understanding the relationships and limitations of data is an on going process through the life cycle of a data warehouse. It helps identify issues early on and there by minimize surprizes. It also bring to light useful relationships in data that can aid developers and clients in better define their requirements and understand their goals. Depending on the limitation of the project, I use a combination of SQL, R, Excel and other Excel related  add-ons like SAP AAOE for analyse and profiling.
 
 ----
-Email : <sdh@pxdata.co.za>
+Email : <shaun4z@live.co.za>
 
 Cell : +27 (72) 535 9760  
 
