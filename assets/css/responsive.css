@@ -18,6 +18,10 @@
     }
 
 
+    .circle[Attributes Style] {
+        r: 50%;
+    }
+
 
 
     .navbar-custom .navbar-brand,

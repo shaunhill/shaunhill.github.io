@@ -83,11 +83,11 @@ function drillDown(data_out, data_in) {
     main_nodes
         .data(main_data)
         .append('circle')
-        .attr("r", 0)
+        .style("r", 0)
         .style("opacity", "0")
         .transition()
         .duration(2500)
-        .attr("r", function (d) {
+        .style("r", function (d) {
             return d.proficiency;
         })
         .style("fill", function (d, i) {
@@ -166,7 +166,7 @@ function initChart() {
 
     main_nodes
         .append('circle')
-        .attr("r", function (d) {
+        .style("r", function (d) {
             return d.proficiency;
         })
         .style("fill", function (d, i) {
@@ -237,7 +237,7 @@ function collide(node, b) {
     }
     return x1 > nx2 || x2 < nx1 || y1 > ny2 || y2 < ny1;
   };
-  
+
 }
 
 function leftClick() {
