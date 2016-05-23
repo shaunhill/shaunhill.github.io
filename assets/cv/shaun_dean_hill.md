@@ -8,7 +8,7 @@ Shaun Dean Hill
 
 > ***Email*** : shaun4z@live.co.za |  ***Cell*** : +27 (72) 535 9760 |  ***Linkedin*** : <https://za.linkedin.com/in/shaundh>
 
----
+--- 
 
 Corporate Experience
 --------------------
