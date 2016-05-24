@@ -2,24 +2,25 @@
 Shaun Dean Hill
 =========================
 
- >8 years experience in the IT industry with 4+ years experience in data related design, implementation, and support. Specializing in data processing, profiling and integration. With strong design, modelling and visualization experience, the majority of my exposure is in SAP BW, MS SQL, and SAP BO related tools. Currently gaining exposure to distributed, streaming and highly parallelized data processing systems, low-level visualization tools, descriptive and inferential statistics and machine learning techniques.
+ >8 years experience in the IT industry with 4+ years experience in data related design, implementation, and support. Specializing in data processing, profiling and integration. With strong design, modelling and visualization experience. I have a diverse understanding of a variety of technologies, while maintaining an in-depth knowledge of technologies in which I specialize. This gives me the perspective to take into account per-existing, current and potential investments, and integrate these considerations into a solution.
 
 ---
 
 > ***Email*** : shaun4z@live.co.za |  ***Cell*** : +27 (72) 535 9760 |  ***Linkedin*** : <https://za.linkedin.com/in/shaundh>
 
---- 
+---
 
 Corporate Experience
 --------------------
 
 2014 - Present : *BI Developer/Consultant, Freelance [shaundh.co.za](http://shaunhill.github.io/) (Gauteng, South Africa)*
 
-  >Requirements gathering, design and, implementation of business intelligence solutions which are both functional and practical. I have a diverse understanding of a variety of technologies, while maintaining an in-depth knowledge of technologies in which I specialize. This gives me the perspective to take into account per-existing, current and potential investments, and integrate these considerations into a solution.
+  >Requirements gathering, design and, implementation of business intelligence solutions which are both functional and practical. Currently gaining exposure to distributed, streaming and highly parallelized data processing systems, low-level visualization tools, descriptive and inferential statistics and machine learning techniques.
 
 2012 - 2014 : *BI Developer, [MCC Group](https://www.mccgroup.co.za) (Midrand, Gauteng, South Africa)*
 
-  >Being involved in all aspects of the enterprise data warehouse model, I have had the opportunity to gain a wide range of BI and data related skills. Successfully designing, implementing and supporting both Microsoft SQL and SAP BW data warehouses, As well as reporting and analytical developments in SAP Business Objects, Qlikview, and SSRS. I also assisted in other data related tasks, e.g. using LSMW and BAPIs to do data take on, and master data generation.
+  >Being involved in all aspects of the enterprise data warehouse model, I gained a wide range of BI and data related skills. Successfully designing, implementing and supporting both Microsoft SQL and SAP BW data warehouses, As well as reporting and analytical developments in SAP Business Objects, Qlikview, and SSRS. I also assisted in other data related tasks, e.g. using LSMW and BAPIs to do data take on, and master data generation.
+
 
   2010-2012 : *Database / Systems Administrator, [MCC Group](https://www.mccgroup.co.za)  (Midrand, Gauteng, South Africa).*
 
@@ -29,13 +30,21 @@ Corporate Experience
 
   >Worked alongside other IT infrastructure staff and systems staff to deliver a high level of support and customer service in accordance with strict SLA agreements, ultimately ensuring that clients experience minimal downtime and an optimal user experience.
 
+Recent Projects
+--------------------
+
+>  
+- Extract tweets from the twitter stream API, with the intention of using machine learning to identify hate speech.  
+- Analyses loan data from the propser.com to identify trends and correlations in the data.
+- Various SAP BW projects which includes working with procurement, financial, mining, GPS, and equipment related data, as well enhancing standard and custom developments.
+- Extracting and analysing openstreetmap.org data with the intention of correlated the data with data extracted from company websites to identify missing stores/branches, and then adding the delta to openstreetmap.org.
+- Creating a Java based web crawler search websites for company contact information.
+- Creating a SAP design studio dashboard for mining quantities and equipment KPIs.
 
 Technologies
 --------------------
 
-  >Java, Python, Pandas , ABAP, T-SQL, MS SSIS, MS SSRS, SAP BW, SAP BEx Query Designer, SAP Design Studio, SAP Web Intelligence, SAP Crystal Reports, R, Dplyr GGplot2, D3.js, HTML, CSS, Javascript, bootstrap, JQuery, MongoDB, MS SQL Server, SAP AAOE, SAP ECC, Windows Server, VMware ESX,
-
-<div style="page-break-after: always;"></div>
+  >Java, Python, Pandas , ABAP, T-SQL, MS SSIS, MS SSRS, SAP BW, SAP BEx Query Designer, SAP Design Studio, SAP Web Intelligence, SAP Crystal Reports, R, Dplyr GGplot2, D3.js, HTML, CSS, Javascript, bootstrap, JQuery, MongoDB, MS SQL Server, SAP AAOE, SAP ECC, Windows Server, VMware ESX, github
 
 Core Skills
 --------------------
