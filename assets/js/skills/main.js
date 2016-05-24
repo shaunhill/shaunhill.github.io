@@ -83,11 +83,11 @@ function drillDown(data_out, data_in) {
     main_nodes
         .data(main_data)
         .append('circle')
-        .style("r", 0)
+        .attr("r", 0)
         .style("opacity", "0")
         .transition()
         .duration(2500)
-        .style("r", function (d) {
+        .attr("r", function (d) {
             return d.proficiency;
         })
         .style("fill", function (d, i) {
@@ -166,7 +166,7 @@ function initChart() {
 
     main_nodes
         .append('circle')
-        .style("r", function (d) {
+        .attr("r", function (d) {
             return d.proficiency;
         })
         .style("fill", function (d, i) {
@@ -211,8 +211,6 @@ function tick(e) {
 
     force.resume();
 }
-
-
 
 function collide(node, b) {
 
