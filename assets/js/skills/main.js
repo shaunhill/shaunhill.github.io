@@ -169,7 +169,7 @@ function initChart() {
         .attr("r", function (d) {
             return d.proficiency;
         })
-        .style("fill", function (d, i)
+        .style("fill", function (d, i){
             return color(d.text);
         })
 
@@ -184,8 +184,6 @@ function initChart() {
 }
 
 function tick(e) {
-
-
     main_lines
         .attr('x1', function (d) {
             return d.target.x;
