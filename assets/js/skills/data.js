@@ -72,7 +72,7 @@ function getData() {
             },
                 {
                     "text": "Tableau",
-                    "proficiency": 20,
+                    "proficiency": 80,
                     "years": 1
             },
 //                {
