@@ -4,13 +4,13 @@ function getData() {
     var core_skills = [
         {
             "text": "Programming",
-            "proficiency": 65,
-            "years": 3,
+            "proficiency": 70,
+            "years": 4,
             "children": [
                 {
                     "text": "Python",
-                    "proficiency": 70,
-                    "years": 2
+                    "proficiency": 75,
+                    "years": 3
 
             },
                 {
@@ -37,7 +37,7 @@ function getData() {
         {
             "text": "Visualization / Reporting",
             "proficiency": 77,
-            "years": 3,
+            "years": 4,
             "children": [
                 {
                     "text": "d3.js",
@@ -73,7 +73,7 @@ function getData() {
                 {
                     "text": "Tableau",
                     "proficiency": 80,
-                    "years": 1
+                    "years": 2
             },
 //                {
 //                    "text": "matplotlib",
@@ -104,17 +104,16 @@ function getData() {
                 {
                     "text": "SSIS",
                     "proficiency": 70,
-                    "years": 2
+                    "years": 3
             },
                 {
                     "text": "T-SQL",
-                    "proficiency": 82,
-                    "years": 6
+                    "proficiency": 85,
+                    "years": 7
             },
                 {
                     "text": "MongoDB",
                     "proficiency": 65,
-
                     "years": 1
             },
                 {
@@ -166,8 +165,8 @@ function getData() {
             },
                 {
                     "text": "Python",
-                    "proficiency": 65,
-                    "years": 2
+                    "proficiency": 70,
+                    "years": 3
             },
                 {
                     "text": "MongoDB",
@@ -177,7 +176,7 @@ function getData() {
                 {
                     "text": "T-SQL",
                     "proficiency": 85,
-                    "years": 6
+                    "years": 7
             },
                 {
                     "text": "SAP AAOE",
@@ -187,7 +186,7 @@ function getData() {
                 {
                     "text": "Mirosoft Excel",
                     "proficiency": 80,
-                    "years": 6
+                    "years": 7
             }
             ]
     },
@@ -248,11 +247,11 @@ function getData() {
                     "proficiency": 80,
                     "years": 6
             },
-//                {
-//                    "text": "Database Design",
-//                    "proficiency": 75,
-//                    "years": 3
-//            },
+               {
+                   "text": "Database Design",
+                   "proficiency": 80,
+                   "years": 4
+           },
                 {
                     "text": "Software Design",
                     "proficiency": 65,
